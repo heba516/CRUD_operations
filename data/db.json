@@ -11,11 +11,6 @@
       "job": "Backend Developer"
     },
     {
-      "id": "3",
-      "name": "Sara",
-      "job": "UX Designer"
-    },
-    {
       "id": "4",
       "name": "Mohamed",
       "job": "Project Manager"
@@ -26,19 +21,9 @@
       "job": "Data Analyst"
     },
     {
-      "id": "6",
-      "name": "Omar",
-      "job": "DevOps Engineer"
-    },
-    {
       "id": "7",
       "name": "Layla",
       "job": "Full Stack Developer"
-    },
-    {
-      "id": "8",
-      "name": "Karim",
-      "job": "Software Tester"
     },
     {
       "id": "9",

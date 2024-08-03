@@ -8,14 +8,15 @@ import { useFormik } from "formik";
 
 interface UserProps {
   user: userData;
+  onDelete: (id: string) => void;
 }
 
-export default function OneUser({ user }: UserProps) {
-  const { deleteUser, editUser } = useUsers();
+export default function OneUser({ user, onDelete }: UserProps) {
+  const { editUser } = useUsers();
 
   const handleDelete = async (id: string) => {
     try {
-      await deleteUser(id);
+      await onDelete(id);
       toast.success("🦄 User deleted");
     } catch (e) {
       toast.error("Failed to delete user");
